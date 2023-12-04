@@ -1,4 +1,4 @@
-let Dipendenti = [
+let dipendenti = [
 
     {
         name: 'Wayne Barnett',
@@ -31,3 +31,5 @@ let Dipendenti = [
         image: 'barbara-ramos-graphic-designer.jpg'
     },   
 ]
+
+console.log(dipendenti);
