@@ -32,4 +32,6 @@ let dipendenti = [
     },   
 ]
 
-console.log(dipendenti);
+for(let key in dipendenti){
+    console.log(dipendenti[key]);
+}
