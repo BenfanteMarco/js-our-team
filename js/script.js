@@ -36,4 +36,5 @@ for(let key in dipendenti){
     for(let innerKey in dipendenti[key]){
         document.getElementById('info').innerHTML += `<li>${innerKey}: ${dipendenti[key][innerKey]}</li>`;
     }
+    console.log(dipendenti[key]);
 }
